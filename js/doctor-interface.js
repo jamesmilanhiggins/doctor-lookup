@@ -8,13 +8,18 @@ var displayInfo = function(medicalIssue, doctors) {
     var last_name = doctor.profile.last_name;
     var title = doctor.profile.title;
     var bio = doctor.profile.bio;
-    // var address =
-    // console.log(doctor.practices[0].lat);
+    var image = doctor.profile.image_url;
     // var lat = doctor.practices[0].lat;
     // var lon = doctor.practices[0].lon;
-  $('.output-medical').append("<p class='title'>" + first_name + " " + last_name + ", " +  title + "</p>" + "<p class='bio'>" + bio + "</p>" + "<hr>");
+  // $('.output-medical').append("<p class='title'>" + first_name + " " + last_name + ", " +  title + "</p>" + "<p class='bio'>" + bio + "</p>" + "<hr>");
+  $('.output-medical').append("<p class='title'>" + first_name + " " + last_name + ", " +  title + "</p>" + "<p class='bio'>" + bio + "</p>" + "<img class='image' src=" + "'" + image + "'" + ">" + "<hr>");
 
   });
+  // $('.output-doctor').append("<img class='image' src=" + "'" + image + "'" + ">");
+  // $('.output-doctor').append("<img class='image' src="`${doctor.profile.image_url}`" >");
+  //
+  // console.log(image);
+  // });
 };
 
 $(document).ready(function() {
