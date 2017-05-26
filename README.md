@@ -63,7 +63,7 @@ Copyright (c) 2017 **_James Higgins_**
 
 
 
-![first Screenshot](/images/first-screenshot.png)
-![third Screenshot](/images/third-screenshot.png)
-![second Screenshot](/images/second-screenshot.png)
-![fourth Screenshot](/images/fourth-screenshot.png)
+![first Screenshot](/images/first.png)
+![third Screenshot](/images/third.png)
+![second Screenshot](/images/second.png)
+![fourth Screenshot](/images/fourth.png)
