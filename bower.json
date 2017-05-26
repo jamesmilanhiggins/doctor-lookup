@@ -1,0 +1,21 @@
+{
+  "name": "doctor-lookup",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "James Higgins <james.milan.higgins@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
