@@ -1,5 +1,5 @@
 .title {
-  color: #ED6A5A;
+  color: #36494E;
   font-size: 20px;
   text-align: center;
 }
@@ -9,11 +9,13 @@
   text-align: center;
 }
 body {
+  font-family: 'Nunito', sans-serif;
   text-align: center;
-  background-color: #CAFFB9;
+  background-color: #FDF0D5;
 }
 .jumbotron {
-  background-color: #AEF78E;
+  background-color: #C6D8D3;
+  font-size: 40px;
   color: #2E4057;
 }
 .info {
@@ -22,4 +24,7 @@ body {
 .image{
   height: 200px;
   width: 175px;
+}
+.form-color-test {
+  background-color: #ECDCB0;
 }

@@ -36,7 +36,6 @@ $ gulp serve
 
 ## Known Bugs
 
-* _ _
 * _Note: If your API request is not successful and you get the following error in the console: Origin is not allowed by Access-Control-Allow-Origin., try installing the Allow-Control-Allow-Origin:_ [Chrome extension](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)*
 
 
@@ -64,5 +63,7 @@ Copyright (c) 2017 **_James Higgins_**
 
 
 
-![Portland page](/images/home-screenshot.png)
-![Seattle page](/images/Seattle.png)
+![First Screenshot](/images/first-screenshot.png)
+![second Screenshot](/images/second-screenshot.png)
+![third Screenshot](/images/third-screenshot.png)
+![fourth Screenshot](/images/fourth-screenshot.png)
