@@ -12,7 +12,7 @@ var displayInfo = function(medicalIssue, doctors) {
     // console.log(doctor.practices[0].lat);
     // var lat = doctor.practices[0].lat;
     // var lon = doctor.practices[0].lon;
-  $('.output-medical').append("<div class='info'>" + "<p class='title'>" + first_name + " " + last_name + " " +  title + "</p>" + "<p class='bio'>" + bio + "</p>" + "</div>");
+  $('.output-medical').append("<p class='title'>" + first_name + " " + last_name + ", " +  title + "</p>" + "<p class='bio'>" + bio + "</p>" + "<hr>");
 
   });
 };
