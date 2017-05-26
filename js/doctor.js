@@ -15,10 +15,4 @@ console.log(response);
   });
 };
 
-    // bikeInfo(response.bikes.stolen_location, response.bikes.title, response.bikes.frame_colors, response.bikes.id, response.bikes);
-  //
-
-
-
-
 exports.doctorModule = Doctor;
