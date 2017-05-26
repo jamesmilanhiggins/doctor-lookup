@@ -3,16 +3,20 @@ var apiKey = require('./../.env').apiKey;
 function Doctor() {
 }
 
-Doctor.prototype.getDoctors = function(medicalIssue) {
+Doctor.prototype.getDoctors = function(medicalIssue, displayInfo, doctors) {
 
   $.get(`https://api.betterdoctor.com/2016-03-01/doctors?query=${medicalIssue} &location=37.773%2C-122.413%2C100&user_location=37.773%2C-122.413&skip=0&limit=10&user_key=${apiKey}`)
-
   .then(function(response) {
-console.log(response);
-})
- .fail(function(error){
-    console.log("fail");
-  });
+    // displayInfo(medicalIssue, response.whateer.doctorname)
+// response.profile.first_name
+// response.practices[?].name
+// response.profile - for all info then display parts on front end?
+
+console.log(response.data[0].profile.first_name);
+//Gets an array of objects, could push this and on front end loop through them displaying profile.firts_name
+});
+ // .fail(function(error){
+ //  });
 };
 
 exports.doctorModule = Doctor;
